@@ -1,0 +1,20 @@
+{
+  "name": "candidate-testing",
+  "version": "1.0.0",
+  "description": "LaunchCode LC101 Intro to Professional Web Development Assignment",
+  "main": "index.js",
+  "dependencies": {
+    "jasmine": "^3.6.3",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:LaunchCodeEducation/github-classroom-autograded-assignments/candidate-testing.git"
+  },
+  "author": "",
+  "license": "ISC"
+}
