@@ -17,13 +17,9 @@ function askForName() {
 //   // TODO 1.1b: Ask for candidate's name //
   candidateName = input.question("What is your name? ");
 }
-  // console.log(candidateName);
 
 function askQuestion() {
 //   // TODO 1.2b: Ask candidate the question and assign the response as candidateAnswer //
-
-// //   candidateAnswers = input.question(`${questions}`);
-// // }
 
 for (i = 0; i < questions.length; i++){
     candidateAnswers[i] = input.question("\n" + questions[i]);
@@ -33,12 +29,6 @@ for (i = 0; i < questions.length; i++){
 function gradeQuiz(candidateAnswers) {
 
   // TODO 1.2c: Let the candidate know if they have answered the question correctly or incorrectly // 
-
-  // if (correctAnswers[1] === candidateAnswers[0]) {
-  //   console.log(`Great job! ${correctAnswers}, is the answer.`);
-  // } else {
-  //   console.log(`Sorry you answered ${candidateAnswers}, the correct answer is ${correctAnswers}.`);
-  // }
 let numCorrect = 0;
 console.log(`\nCandidate Name: ${candidateName}\n`);
 
